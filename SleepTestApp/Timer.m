@@ -210,7 +210,9 @@
 
     if (sleepTimeNow == 60)
     {
-        [self growlNotification:@"After 1 min Mac going to sleep..." withTitle:@"Sleep Timer"];
+		// todo: show notify in notification center?
+		// [self growlNotification:@"After 1 min Mac going to sleep..." withTitle:@"Sleep Timer"];
+		NSLog(@"After 1 min Mac going to sleep...");
     }
     if (sleepTimeNow < 1)
     {
@@ -243,14 +245,6 @@
 
 }
 
-
--(void)growlNotification:(NSString *)message withTitle:(NSString *)title{
-    
-    GrowlNotifycation *growlTest = [[GrowlNotifycation alloc] init];
-    [growlTest notifycation:message title:title];
-    [growlTest release];
-    
-}
 
 
 

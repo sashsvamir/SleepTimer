@@ -13,7 +13,6 @@
 		1D3BEE9814DFBFBC005B5853 /* MenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3BEE9714DFBFBC005B5853 /* MenuBar.m */; };
 		1D3EC73E14F11E4E004B9D70 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1D3EC73D14F11E4E004B9D70 /* dsa_pub.pem */; };
 		1D9725A114C60BC70069B168 /* TimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9725A014C60BC70069B168 /* TimeLabel.m */; };
-		1DA1B115149AA62500CF161D /* GrowlNotifycation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA1B114149AA62500CF161D /* GrowlNotifycation.m */; };
 		1DB30B7D1494A147004E9F23 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB30B7C1494A147004E9F23 /* IOKit.framework */; };
 		1DB586B914B345170037AF26 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1DB586B814B345170037AF26 /* icon.icns */; };
 		1DBFDFFB14928ED600829AD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBFDFFA14928ED600829AD0 /* Cocoa.framework */; };
@@ -30,7 +29,6 @@
 		1DDABCB514C41F00007EEFEA /* ImageWithMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDABCB414C41EFF007EEFEA /* ImageWithMask.m */; };
 		1DE3A53C21CC2C5700BC3E75 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3EC73A14F11D4E004B9D70 /* Sparkle.framework */; };
 		1DE3A54621CC2EE700BC3E75 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3EC73A14F11D4E004B9D70 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1DE3A54721CC2F0000BC3E75 /* Growl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC68916149A9FF3007C6C2D /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1DE6ECB114C932A000420433 /* SleepClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE6ECB014C932A000420433 /* SleepClass.m */; };
 		1DE9108114F9886E00D0EFEE /* IB-button-top-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9107E14F9886E00D0EFEE /* IB-button-top-on.png */; };
 		1DE9108214F9886E00D0EFEE /* IB-button-top-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9107F14F9886E00D0EFEE /* IB-button-top-off.png */; };
@@ -62,7 +60,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1DE3A54721CC2F0000BC3E75 /* Growl.framework in Embed Frameworks */,
 				1DE3A54621CC2EE700BC3E75 /* Sparkle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -81,8 +78,6 @@
 		1D3EC73D14F11E4E004B9D70 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		1D97259F14C60BC70069B168 /* TimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLabel.h; sourceTree = "<group>"; };
 		1D9725A014C60BC70069B168 /* TimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLabel.m; sourceTree = "<group>"; };
-		1DA1B113149AA62500CF161D /* GrowlNotifycation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlNotifycation.h; sourceTree = "<group>"; };
-		1DA1B114149AA62500CF161D /* GrowlNotifycation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlNotifycation.m; sourceTree = "<group>"; };
 		1DB30B7C1494A147004E9F23 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		1DB586B814B345170037AF26 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = img/icon.icns; sourceTree = "<group>"; };
 		1DBFDFF614928ED600829AD0 /* SleepTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +92,6 @@
 		1DBFE01814928ED700829AD0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1DBFE0AE149367BD00829AD0 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 		1DBFE0AF149367BD00829AD0 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
-		1DC68916149A9FF3007C6C2D /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Frameworks/Growl.framework; sourceTree = "<group>"; };
 		1DD73E8D14F27A4800FC9D6D /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		1DD73E8E14F27A4800FC9D6D /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		1DDABC9B14C415E1007EEFEA /* IB-progress-196px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IB-progress-196px.png"; path = "img/IB-progress-196px.png"; sourceTree = "<group>"; };
@@ -171,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				1D3EC73A14F11D4E004B9D70 /* Sparkle.framework */,
-				1DC68916149A9FF3007C6C2D /* Growl.framework */,
 				1D39095514B07DC00003D421 /* AudioToolbox.framework */,
 				1DB30B7C1494A147004E9F23 /* IOKit.framework */,
 				1DBFDFFA14928ED600829AD0 /* Cocoa.framework */,
@@ -198,8 +191,6 @@
 				1D1A13A421CC2A4E001DF6BD /* MainMenu.xib */,
 				1DBFE00C14928ED600829AD0 /* AppDelegate.h */,
 				1DBFE00D14928ED600829AD0 /* AppDelegate.m */,
-				1DA1B113149AA62500CF161D /* GrowlNotifycation.h */,
-				1DA1B114149AA62500CF161D /* GrowlNotifycation.m */,
 				1DD73E8D14F27A4800FC9D6D /* Controller.h */,
 				1DD73E8E14F27A4800FC9D6D /* Controller.m */,
 				1DDABCA914C41A1D007EEFEA /* TransparentWindow.h */,
@@ -309,7 +300,6 @@
 				1DBFE00714928ED600829AD0 /* main.m in Sources */,
 				1DBFE00E14928ED600829AD0 /* AppDelegate.m in Sources */,
 				1DBFE0B0149367BD00829AD0 /* Timer.m in Sources */,
-				1DA1B115149AA62500CF161D /* GrowlNotifycation.m in Sources */,
 				1D39095314B07C430003D421 /* NKVolumeControl.m in Sources */,
 				1DDABCA814C419AF007EEFEA /* ButtonControl.m in Sources */,
 				1DDABCAB14C41A1D007EEFEA /* TransparentWindow.m in Sources */,

@@ -207,7 +207,6 @@
                 <outlet property="volumeIndicator" destination="573" id="575"/>
             </connections>
         </customObject>
-        <customObject id="561" customClass="GrowlNotifycation"/>
         <customObject id="572" customClass="NKVolumeControl"/>
         <menu title="SleepTimer Menu" id="621">
             <items>

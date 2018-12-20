@@ -14,7 +14,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GrowlNotifycation.h"
 #import "ButtonControl.h"
 #import "SleepClass.h"
 #import "MenuBar.h"
@@ -63,7 +62,6 @@ float stepVolume;
 - (void) initializeVolumeVariables;
 
 -(void)goSleep;
--(void)growlNotification:(NSString *)message withTitle:(NSString *)title;
 -(void)notifyStopTimer:(NSNotification*)notification;
 
 // Functions:
